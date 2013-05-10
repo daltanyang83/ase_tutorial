@@ -8,5 +8,5 @@ mya = 2.46
 myc = 6.70 
 
 gra = Graphite(symbol = 'C',latticeconstant={'a':mya,'c':myc},
-               size=(index1,index2,2))
-io.write('graphite.xyz', gra, format='xyz')
+               size=(index1,index2,4))
+io.write('graphite_8_layers.xyz', gra, format='xyz')
